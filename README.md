@@ -10,3 +10,21 @@ The analogous statements should also be possible for directors, whereby it can b
 The other data of a film include: Title, type (thriller, western, youth film, ... ), year of production, country, language, duration, distribution, etc.
 
 Create a ERD and a Relation Model for this example
+
+![ERM](cinema.jpg)
+
+Cinemas (Cinema Nr: INT, Name: VARCHAR, Adress: VARCHAR)
+
+Halls (Name: VARCHAR, Hall Nr.: INT)
+
+Seats (Row: INT, Box: INT, Seat Nr.: INT)
+
+Films (Type: VARCHAR, Production Year: DATE, Film Nr.: INT, Title: VARCHAR)
+
+Tickets (Ticket Nr.: INT)
+
+Actors (BD: DATE; Name: VARCHAR, Death: DATE)
+
+Director (BD: DATE; Name: VARCHAR, Death: DATE)
+
+
